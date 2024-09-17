@@ -1,0 +1,172 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f8fa;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1abc9c;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    font-size: 16px;
+    color: white;
+}
+
+.cta {
+    background-color: white;
+    color: #1abc9c;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.cta:hover {
+    background-color: #16a085;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #ecf0f1;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #1abc9c;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.hero-image img {
+    width:"100px";
+    height: "100px";
+}
+
+/* Features Section */
+.features {
+    text-align: center;
+    padding: 50px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-item {
+    max-width: 30%;
+}
+
+.feature-item i {
+    font-size: 40px;
+    color: #1abc9c;
+}
+
+.how-it-works {
+    background-color: #f7f8fa;
+    padding: 50px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.details {
+    background-color:#16a085;
+    max-width: 100%;
+    max-height: 500px;
+}
+
+#details {
+    background-color: #16a085; 
+    color: white; 
+    padding: 50px; 
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#details ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-basis: 45%;
+
+#details ul li {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+#details ol {
+    margin-left: 20px;
+    font-size: 16px;
+    list-style-type: none;
+
+#details ol li {
+    margin-bottom: 5px;
+    list-style-type: none;
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+    #details {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #details ul {
+        flex-basis: 100%;
+    }
+}
+
+.footer-content {
+    justify-content: center;
+}
