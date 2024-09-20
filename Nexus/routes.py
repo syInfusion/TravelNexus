@@ -39,4 +39,4 @@ def signup_page():
             return redirect(url_for('routes.login_page'))
         else:
             flash(response.json['message'], 'danger')
-    return render_template('register.html', form=form)
+    return render_template('signup.html', form=form)
